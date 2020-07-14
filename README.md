@@ -1,6 +1,8 @@
 # `raspberrypi_alsa_pcm`
 树莓派 alsa 采集pcm
 
+# 树莓派alsa采集pcm小计
+
 # 目录
 
 1. [项目地址](#alsa001)
@@ -30,6 +32,7 @@ https://github.com/coderTong/raspberrypi_alsa_pcm
 ### alsa002
 # 2. 软件和库安装
 
+### alsa002a
 ## 2.1 库安装
 
 ```shell
@@ -50,7 +53,7 @@ sudo  apt-get  install  build-essential
 ```
 
 
-
+### alsa002b
 ## 2.2 安装 audacity软件
 
 ```c
@@ -63,6 +66,7 @@ sudo  apt  install  audacity
 ### alsa003
 # 3. 编辑 ~/.asoundrc
 
+### alsa003a
 ## 3.1 编辑 asoundrc文件
 
 0. 进入文件夹 cd ~
@@ -105,6 +109,7 @@ pcm.!default
 ```
 
 
+### alsa003b
 ## 3.2 其中`YouDeviceName`具体写什么?
 
 1. 在`Terminal` 敲密令` arecord -l `
@@ -295,4 +300,7 @@ pcm.!default
 - [Linux下使用alsamixer配置系统默认的声卡设备(默认音频输出设备、输入设备、系统音量)](https://blog.csdn.net/xiaolong1126626497/article/details/105718239/)
 
 - [ALSA Programming HOWTO](https://users.suse.com/~mana/alsa090_howto.html)
+
+
+
 
